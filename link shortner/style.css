@@ -1,0 +1,103 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background-color: pink;
+}
+
+.main{
+    position: relative;
+    background-color: rgb(255 255 255);
+    height: 400px;
+    width: 500px;
+    top: 40%;
+    left: 50%; 
+    transform: translate(-50%,50%);
+    border: 1px solid rgb(163 162 183);
+    border-radius: 15px;
+
+}
+
+#longurl{
+    position: relative;
+    top: 25%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    box-shadow: 2px 1px 2px white;
+}
+
+#shorten{
+    position: relative;
+    top: 25%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 1px solid #211f20;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(218 18 136);;
+}
+
+#shorten:hover{
+    background-color: rgb(13 12 12 / 67%);
+    color: #f3e9e9;
+}
+
+#shorturl{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    box-shadow: 2px 1px 2px white;
+}
+
+#copy{
+    position: relative;
+    top: 31%;
+    left: 0%;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #da1288;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(218 18 136);;
+}
+
+#copy:hover{
+    background-color: rgb(23 22 22 / 67%);
+    color: #f3ecec;
+}
+
+.main p{
+    position: relative;
+    top: 10%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: algerian;
+    font-weight:normal;
+    text-decoration: underline;
+    color: rgb(215 22 106);
+}
